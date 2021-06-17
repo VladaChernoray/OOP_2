@@ -41,7 +41,7 @@ int main()
 
 	SOCKET AcceptSocket;
 	printf("Waiting for client to connect...\n");
-	string who_answer = " |Tsybick Anastasiya K-26| |Option 30 (Synchronization of sets of numbers.)| \n";
+	string who_answer = " |Chernoray|Bartish|(Synchronization of sets of numbers.)| \n";
 	string info_answer = "\n Available commands for server: \n info|help|? (shows list of available commands) \n who|Who (the server provides information about the author and the number and a short name of the option) \n abort|Abort (shuts down the server) \n sync (synchronizes sets of client and server) \n";
 
 	while (1) {
